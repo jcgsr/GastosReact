@@ -1,0 +1,19 @@
+a{
+   text-decoration: none;
+   color: rgb(70, 200, 100);
+}
+a:visited{
+   color: blueviolet;
+}
+
+.footer {
+   width: 100%;
+   font-size: smaller;
+   background-color: rgb(4, 7, 39);
+   color: aliceblue;
+   position: relative;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   padding: .7rem;
+}

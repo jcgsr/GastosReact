@@ -1,0 +1,16 @@
+form{
+   display: flex;
+   flex-direction: column;
+   max-width: 20%;
+   margin: 0 auto;
+   padding: 1rem;
+   min-height: 100vh;
+   position: relative;
+}
+
+.login{
+   background-color: green;
+   text-align: center;
+   width: 100%;
+   color: aliceblue;
+}

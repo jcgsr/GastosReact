@@ -1,0 +1,22 @@
+table, th, td {
+   border: 1px solid black;
+   padding: .5rem;
+}
+
+table {
+   margin: 0 auto;   
+   position: relative;
+}
+
+.lista {
+   padding: 1rem;
+}
+
+@media (max-width: 800px){
+   *{
+      font-size: 1rem;
+   }
+   table{
+      max-width: 70%;
+   }
+}

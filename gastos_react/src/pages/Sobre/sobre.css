@@ -1,0 +1,9 @@
+.texto{
+   display: flex;
+   flex-direction: column;
+   max-width: 50%;
+   margin: 0 auto;
+   padding: 1rem;
+   min-height: 100vh;
+   position: relative;
+}
