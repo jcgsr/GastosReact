@@ -24,7 +24,6 @@ class Formulario extends Component {
       };   
       
       this.cadastrar = this.cadastrar.bind(this);      
-
    }
 
    cadastrar(e){
@@ -50,7 +49,7 @@ class Formulario extends Component {
          <div>
             <Header />
             <form onSubmit={this.cadastrar}>
-               <input type="text" value={this.state.data}
+               <input type="text" placeholder="data" value={this.state.data}
                onChange={(e) => this.setState({data: e.target.value})}/>
 
                <input type="number" placeholder="casa" value={this.state.casa}
